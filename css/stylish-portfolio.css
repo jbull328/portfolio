@@ -194,7 +194,8 @@ hr.small {
 }
 
 .callout h1 {
-  color: #E55B0F;
+  color: #337ab7;
+
 
 }
 /* Portfolio */
@@ -235,6 +236,11 @@ hr.small {
     .map {
         height: 75%;
     }
+}
+/*Imgs*/
+
+.portfolioPic {
+  border-radius: 100%;
 }
 
 /* Footer */
