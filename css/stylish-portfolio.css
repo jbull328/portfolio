@@ -193,6 +193,10 @@ hr.small {
     -o-background-size: cover;
 }
 
+.callout h1 {
+  color: #E55B0F;
+
+}
 /* Portfolio */
 
 .portfolio {
