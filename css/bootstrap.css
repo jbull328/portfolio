@@ -1117,9 +1117,7 @@ a:focus {
 figure {
   margin: 0;
 }
-.portfolioPic {
-  border-radius: 100%;
-}
+
 img {
   vertical-align: middle;
 }
