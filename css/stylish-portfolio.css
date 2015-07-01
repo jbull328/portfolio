@@ -186,7 +186,9 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/whiteplanks.jpg) no-repeat center center scroll;
+    background: linear-gradient(0deg, #EE9439, transparent 60%),
+                -moz-linear-gradient(0deg, #EE9439, transparent 60%),
+                url(../img/whiteplanks.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -194,9 +196,9 @@ hr.small {
 }
 
 .callout h1 {
-  color: #337ab7;
-
-
+  color: #fff;
+  font-weight: bold;
+  text-shadow: .8px .6px #292a2a;
 }
 /* Portfolio */
 
@@ -220,6 +222,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background: url(../img/bridge.jpg) no-repeat center center scroll);
 }
 
 .call-to-action .btn {

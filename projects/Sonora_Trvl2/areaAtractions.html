@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sonora</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    	function initialize() {
+		  var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(38.024059, -120.398734),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body> 
+    <header id="top" class="attractions-header">
+     	<h1>Attractions</h1>
+    </header>
+
+      <div class="content">
+        <p>Many</p>
+      
+      <ul id="areaImg">
+      	<li><img src="img/redchurch.jpg"></li>
+      	<li><img src="img/columbia.jpg"></li>
+      	<li><img src="img/pinecrest.jpg"></li>
+      	<li><img src="img/GoldPan.jpg"></li>
+      </ul>
+    <div class="primary-content" id="map-canvas"></div>
+
+
+</body>
+</html>
+
+
+

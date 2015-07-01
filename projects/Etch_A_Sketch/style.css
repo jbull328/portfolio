@@ -1,0 +1,95 @@
+.container {
+
+	height: 577px;
+	width: 579px;
+	background-color: #9394a7;
+	margin: 60px auto;
+	overflow: hidden;
+	boarder-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+.box {
+	display: table-cell;
+	vertical-align: middle;
+	height: 2em;
+	width: 2em;
+	background-color: #40627C;
+	background-color: #A4ccd6;
+  display: block;
+	float: left;
+	border: 2px solid #2BCCBD;
+	margin: auto;
+	padding: 0;
+}
+
+body {
+
+	background-color:  #f4f4f4;
+
+}
+
+#topBar {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #D6D6D6;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#topBar li {
+	float: left;
+	list-style-type: none;
+	padding: 25px;
+}
+
+button {
+	width: 250px;
+	height: 30px;
+	display: block;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #a8a8a8;
+	font-size: 16px;
+	color: #f4f4f4;
+	margin: auto;
+}
+
+#foot {
+	color: #FFFAE4;
+	margin: 50px auto;
+	text-align: center;
+	font-family: Lucida Console;
+}
+
+#topBar li {
+
+	float: left;
+	width: 60px;
+	list-style-type: none;
+	margin: 20px 45px 10px 50px;
+
+
+}
+
+button {
+
+	display: block;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 10px, 15px;
+	margin-left: 34%;
+	background-color: #a8a8a8;
+	font-size: 16px;
+	color: #f4f4f4;
+}
+#foot {
+
+	color: #f4f4f4;
+	float: right;
+	padding-right: 100px;
+
+}

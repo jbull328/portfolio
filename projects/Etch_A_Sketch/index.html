@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script src="jquery-1.11.2.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700' rel='stylesheet' type='text/css'>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+	</head>
+
+	<body>
+
+		<script>
+			$(document).ready(function() {
+
+			//this set up the grid
+			for (var  i=0; i <=16; i++) {
+			for (var j = 0; j <=16; j++){
+
+			$('.container').append('<div class="box"></div>' );
+		}
+
+			$('.container')	.append('<div class="box"></div>').css('clear', 'both');
+		}
+
+			//Creates the draw effect with hover.
+			$(".box").hover(function() {
+
+			$(this).css({'background-color' : '#50FFC1'});
+		});
+
+			//This does a nice hover effect on buttons.
+			$('button').mouseenter(function(){
+
+			$(this).css({'background-color' : "#59DEFF" })
+		});
+			$('button').mouseout(function(){
+
+			$(this).css({'background-color' : "#a8a8a8"})
+		});
+
+		//This resets the grid. => reset button
+			$('.reset').click(function() {
+
+			$('.box').css({'background-color' : "#40627C"});
+
+		});
+
+
+	});
+		</script>
+
+
+
+
+	<div id="topBar">
+		<h1>Sketch-O-Matic</h1>
+	<ul>
+
+		<li><button class='reset'>Reset</button></li>
+
+
+	</ul>
+	</div>
+
+		<div class="container"></div>
+
+	<div id="foot">
+		<p>&copy 2015 John Bull</p></br>
+
+
+	</div>
+</body>
+
+
+
+</html>
