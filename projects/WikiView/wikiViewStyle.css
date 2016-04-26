@@ -1,0 +1,109 @@
+
+body {
+ background-color: #71FF60;
+
+}
+#title {
+ font-size: 30px;
+ margin-top: 70px;
+ padding: 20px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+#go, #clear {
+ margin: 30px;
+ padding: 10px 10px;
+ border-radius: 100%;
+}
+
+nav {
+	height: 50px;
+	background-color: #222;
+	color: #A39E9E;
+  border-radius: 0;
+}
+
+
+.navbar-header {
+		padding: 10px;
+}
+
+.card {
+ margin: 10px 18px 8px 18px;
+ padding: 0;
+
+}
+
+.card-img-top {
+ margin: 25% 25% 0 ;
+}
+
+.card p {
+ font-size: 12px;
+ margin: 3px 0 12px;
+}
+
+#loadIn {
+ margin: 35px 150px;
+}
+
+.card-text {
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.card-title {
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ overflow: hidden;
+ font:  32px;
+ font-weight: bold;
+}
+
+.card-title {
+ padding: 0;
+ margin: 0;
+}
+#search {
+ width: 300px;
+ margin 35px;
+}
+.row-centered {
+   text-align:center;
+
+}
+.col-centered {
+	display: inline-block;
+	float: none;
+	margin-right: -4px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   /* For mobile phones: */
+   [class*="col-"] {
+       width: 80%;
+   }
+
+ #loadIn {
+   margin: 0;
+ }
+ .card {
+   width: 80%;
+ }
+}
+
+@media only screen and (max-width: 320px) {
+   /* For mobile phones: */
+   [class*="col-"] {
+       width: 100%;
+   }
+ #loadIn {
+
+ }
+ .card {
+   width: 100%;
+ }
+}

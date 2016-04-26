@@ -9,7 +9,7 @@ html {
 body {
 
 	margin: 0;
-	background-image: url("http://iecsharepoint.i-e-c.net/IT/SiteAssets/img/IT_Logo_Banner.png");
+	background-image: url("*");
 	height: 100%;
 }
 
@@ -39,7 +39,7 @@ List Styles
 
 .contactInfo {
 	display: inline-block;
-	
+
 
 }
 

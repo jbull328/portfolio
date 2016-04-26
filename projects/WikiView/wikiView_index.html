@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Wiki Viewer</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="wikiViewStyle.css">
+
+    <script src="wikiView.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+		<div class="navbar-header">Hand Crafted Software by:
+      <a class="" href="http://jbull.co">John Bull</a>
+    </div>
+  </nav>
+
+    <div class="row-centered">
+  <div class="container col-centered col-lg-4 col-md-6 col-sm-8 col-xs-10">
+    <div id="title" class=" text-center">Wiki Viewer</div>
+    <div class="row-centered">
+      <input id="search" type="text" class="col-centered form-control" placeholder="Search Wikipedia">
+      <div class="row-centered">
+        <button id="go" class="centered fa fa-search fa-2x"></button>
+        <button id="clear" class="centered fa fa-refresh fa-2x"></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="loadArea">
+ <div id="loadIn" class="row-centered"></div>
+</div>
+  </body>
+</html>

@@ -1,41 +1,126 @@
-<!DOCTYPE html>
-<html>
-  <head>
+<html><head>
     <title>Sonora</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="style2.css">
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information about the wonderfull attractions in the California Foothills town of Sonora">
+    <meta name="author" content="John Bull">
+    <meta name="keyword" content="Historical Buildings, Sonora CA, Columbia State Park, CA foothils, Foothills, Goldrush, California History">
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="robots" content="noimageindex">
+     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
-    	function initialize() {
-		  var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(38.024059, -120.398734),
-          zoom: 10,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-68850833-2', 'auto');
+    ga('send', 'pageview');
+
+      function initialize() {
+                		  var mapCanvas = document.getElementById('map-canvas');
+                        var mapOptions = {
+                          center: new google.maps.LatLng(38.024059, -120.398734),
+                          zoom: 10,
+                          mapTypeId: google.maps.MapTypeId.ROADMAP
+                        }
+                        var map = new google.maps.Map(mapCanvas, mapOptions)
+                      }
+                      google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-  </head>
-  <body> 
+
+  </head><body>
     <header id="top" class="attractions-header">
-     	<h1>Attractions</h1>
+      <h1>Attractions</h1>
     </header>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img\redchurch.jpg" class="center-block img-responsive attractionImg">
+          </div>
+          <div class="col-md-6">
+            <h1>Iconic Setting</h1>
+            <p class="hidden-sm hidden-xs">The picturesque landscape offers photographers and artists unforgettable
+              opportunities to capture iconic images. One of the most photographed churches
+              is located right in the heart of Sonora. St. James Church or The Red Church was built in 1860 and one of the foothills most recognizable landmarks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <div class="content">
-        <p>Many</p>
-      
-      <ul id="areaImg">
-      	<li><img src="img/redchurch.jpg"></li>
-      	<li><img src="img/columbia.jpg"></li>
-      	<li><img src="img/pinecrest.jpg"></li>
-      	<li><img src="img/GoldPan.jpg"></li>
-      </ul>
-    <div class="primary-content" id="map-canvas"></div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img\columbia.jpg" class="center-block img-responsive attractionImg">
+          </div>
+          <div class="col-md-6">
+            <h1>Columbia State Park</h1>
+            <h3 class="hidden-sm hidden-xs">A Living History</h3>
+            <p class="hidden-sm hidden-xs">This gold rush era town is one of the best places to learn about California's
+              rich history. Built in the 1850's boom, the park features a working blacksmith,
+              candy factory, history exhibits, gold panning and much more. One of the
+              most exciting exhibits at Columbia is the Stage coach. Filled with colorful
+              characters, a ride on the stagecoach is guaranteed to entertain young and
+              old alike.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img\pinecrest.jpg" class="center-block img-responsive img-rounded attractionImg">
+          </div>
+          <div class="col-md-6">
+            <h1>The Great Outdoors</h1>
+            <p class="hidden-sm hidden-xs">Sonora is a gateway to the highway 108 section of the Sierra Nevada's.
+              With an elevation ranging from 3000 ft to 9000 ft the area is chalk full
+              of hidden lakes, campgrounds hiking and quiet getaway spots for your next
+              mountain jaunt. Visit Pinecrest lake in the summer to beat the heat, or
+              learn to ski at Dodge Ridge in the winter. You can't go wrong with a mountain
+              adventure in this area. Just be sure to pack extra food, water, and warm
+              clothing as the weather can change at any time in the higher altitudes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img\GoldPan.jpg" class="center-block img-responsive attractionImg">
+          </div>
+          <div class="col-md-6">
+            <h1>GoldRush</h1>
+            <h3 class="hidden-sm hidden-xs">Foothills Gold</h3>
+            <p class="hidden-sm hidden-xs">Weather relaxing or trying your hand at gold panning, there is always something
+              new in this area to experience. Area wines, great local restaurants, and hidden
+              gems await in this gold rush town.<p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="primary-content" id="map-canvas"></div>
+    </div>
+    <div>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Travel Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-6800173550383667"
+     data-ad-slot="4340348433"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
 
 
-</body>
-</html>
-
-
-
+</body></html>

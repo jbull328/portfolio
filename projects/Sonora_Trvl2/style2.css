@@ -8,16 +8,16 @@
 body {
   color: #878787;
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1.25em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1,
 h2 {
   font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
-  
+
 }
 
-h1 {  
+h1 {
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
@@ -65,7 +65,7 @@ li {
 #areaImg  {
   margin: 60px 30% 10px 30%;
   padding: 0
-  
+
 }
 #areaImg li {
   list-style: none;
@@ -74,10 +74,15 @@ li {
 }
 
 #areaImg li img{
-  
+
   margin: 30px auto 10 auto;
   max-width: 250px;
+}
 
+.attractionImg {
+  max-width: 85%;
+  max-height: auto;
+}
 }
 /* Pseudo-classes ------------------ */
 
@@ -104,22 +109,25 @@ a:active {
   padding-top: 170px;
   height: 850px;
   background: linear-gradient(#ffa949, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),  
+              linear-gradient(0deg, #fff, transparent),
               #B5E655 url('img/New-Melones.jpg') no-repeat center;
-  
+
   background-size: cover;
-  
+
 }
 
 .attractions-header {
   padding-top: 170px;
   height: 850px;
   background: linear-gradient(#ffa949, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),  
+              linear-gradient(0deg, #fff, transparent),
               #B5E655 url('img/Sugar-Pine-RR.jpg') no-repeat center;
-  
+
   background-size: cover;
-  
+
+}
+.info-callout {
+    padding: 7em;
 }
 
 .title {
@@ -133,7 +141,7 @@ a:active {
 
 .intro {
   font-size: 1.25em; /* 20px/16px */
-  line-height: 1.6;  
+  line-height: 1.6;
 }
 
 .primary-content,
@@ -173,14 +181,14 @@ a:active {
 }
 
 #map-canvas {
-  width: 300px;
-  height: 250px;
+  width: 500px;
+  height: 400px;
   margin-top: 50px;
 }
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
+.primary-content,
 .secondary-content {
   width: 75%;
   padding-left: 50px;
@@ -275,10 +283,10 @@ a:active {
 
   .arrow {
     display: none;
-} 
+}
 
   .intro {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
   .resorts,
@@ -291,7 +299,3 @@ a:active {
     padding: 20px 0;
   }
 }
-
-
-
-

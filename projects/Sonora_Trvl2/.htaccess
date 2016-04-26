@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^sonoratravel\.jbull\.co$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sonoratravel\.jbull\.co$
+RewriteRule ^/?$ "http\:\/\/jbull\.co\/portfolio\/projects\/Sonora_Trvl2\/index\.html" [R=301,L]
+

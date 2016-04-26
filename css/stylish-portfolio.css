@@ -11,16 +11,14 @@ body {
     width: 100%;
     height: 100%;
 }
-
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
 header h1 {
   font-family: 'Actor', sans-serif;
 }
 header h2 {
   font-family: 'Cabin Condensed', sans-serif;
+}
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -163,7 +161,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/mtn.jpg) no-repeat center center scroll;
+    background: url('http://res.cloudinary.com/jbull238/image/upload/c_scale,h_1080,w_1920/v1459435394/mtn_jwe88q.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -189,25 +187,29 @@ hr.small {
 /* Callout */
 
 .callout {
-    height: 500px;
-    background: linear-gradient(
+  display: table;
+  min-width: 100%;
+  height: 500px;
+  color: #fff;
+  background: linear-gradient(
       to right,
       rgba(70,83,143,.5), rgba(7,87,86,.6)
     ), url(http://i.imgur.com/0zn8nE6.jpg) no-repeat center center scroll;
-    display: table;
-    width: 100%;
-    color: #fff;
+  background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.callout h1 {
+.callout h2 {
+  text-shadow: .8px .6px #292a2a;
+  padding: 28;
   color: #fff;
   font-weight: bold;
-  text-shadow: .8px .6px #292a2a;
-  padding: 28px;
+  font-size: 1.68em;
+  padding: 50px 50px;
+  margin: 35px 72px 15px auto;
 }
 /* Portfolio */
 
@@ -221,6 +223,10 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    max-width: 100%;
+    height: 226px;
+    display: block;
+    clear: both;
 }
 
 .img-portfolio:hover {
@@ -238,24 +244,14 @@ hr.small {
     margin: 10px;
 }
 
-.resumeInfo {
-  background-color: #D2D6D9;
-  padding: 8px;
-}
+/* Map */
 
-#resumeDetails {
-  margin: 60px 30px 0 0;
+.map {
+    height: 500px;
 }
 
 @media(max-width:768px) {
-
-}
-
-@media only screen and (max-width: 768px) {
-  #edu {
-    display: none;
-  }
-
+    
 }
 /*Imgs*/
 
