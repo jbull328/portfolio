@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100%;
 }
-header h1 {
+header h1, #name {
   font-family: 'Actor', sans-serif;
 }
 header h2 {
@@ -35,6 +35,9 @@ body {
     font-weight: 700;
 }
 
+.navbar li {
+  text-align: 
+}
 /* Custom Button Styles */
 
 .btn-dark {
@@ -251,7 +254,7 @@ hr.small {
 }
 
 @media(max-width:768px) {
-    
+
 }
 /*Imgs*/
 
